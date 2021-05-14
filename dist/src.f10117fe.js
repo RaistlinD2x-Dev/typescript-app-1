@@ -136946,6 +136946,7 @@ var user = new User_1.User();
 var company = new Company_1.Company();
 console.log(user);
 console.log(company);
+google;
 },{"./User":"src/User.ts","./Company":"src/Company.ts"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -136974,7 +136975,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52023" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53424" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
